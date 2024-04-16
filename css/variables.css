@@ -1,0 +1,22 @@
+:root{
+    --color-1: #292526;
+    --color-2: #1B2028;
+    --color-3: #A4AAAD;
+    --color-4: #111111;
+}
+@font-face {
+    font-family: "EncodeSans-Regular";
+    src: url("../storage/font/encode-sans/EncodeSans-Regular.ttf");
+}
+@font-face {
+    font-family: "EncodeSans-Medium";
+    src: url("../storage/font/encode-sans/EncodeSans-Medium.ttf");
+}
+@font-face {
+    font-family: "EncodeSans-SemiBold";
+    src: url("../storage/font/encode-sans/EncodeSans-SemiBold.ttf");
+}
+@font-face {
+    font-family: "EncodeSans-Bold";
+    src: url("../storage/font/encode-sans/EncodeSans-Bold.ttf");
+}
