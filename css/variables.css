@@ -12,6 +12,9 @@
     --layout-imagen-width-detail:100%;
     --layout-imagen-height-detail:385px;
 
+    --layout-imagen-width-checkout:70px;
+    --layout-imagen-height-checkout:70px;
+
 }
 @font-face {
     font-family: "EncodeSans-Regular";
