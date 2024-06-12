@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta id="myMeta" charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="stylesheet" href="css/style.css">
+    <script type="module" src="js/main.js" defer></script>
 </head>
 <body>
     <header class="header">
@@ -18,7 +19,7 @@
     </header>
     <nav class="nav">
         <div class="nav__search">
-            <input type="text" placeholder="Search clothes. . .">
+            <input id="input__search" type="text" value="pantalon" placeholder="Search clothes. . .">
             <span class="search__icon">
                 <img src="storage/img/magnifyingGlass.svg">
             </span>
@@ -32,34 +33,16 @@
     <main class="main">
         <nav class="main__nav">
             <ul class="nav__ul">
-                <li>
-                    <a href="#" >
-                        <img src="storage/img/category.svg" >
-                        All Items
-                    </a>
-                </li>
-                <li>
+                <!-- <li>
                     <a href="#" >
                         <img src="storage/img/mask.svg" style="filter: invert(1);">
                         Dresss
                     </a>
-                </li>
-                <li>
-                    <a href="#" >
-                        <img src="storage/img/hat.svg" >
-                        Hat
-                    </a>
-                </li>
-                <li>
-                    <a href="#" >
-                        <img src="storage/img/watch.svg" >
-                        Watch
-                    </a>
-                </li>
+                </li> -->
             </ul>
         </nav>
         <article class="main__article">
-            <section>
+            <!-- <section>
                 <div class="section__front_page">
                     <a href="views/detail.html">
                         <img src="storage/img/img3.png">
@@ -75,58 +58,7 @@
                         <p>5.0</p>
                     </div>
                 </div>
-            </section>
-            <section>
-                <div class="section__front_page">
-                    <a href="views/detail.html">
-                        <img src="storage/img/img1.png">
-                    </a>
-                    <img src="storage/img/heartWhite.svg">
-                </div>
-                <h5>Modern light clothes</h5>
-                <small>Dress modern</small>
-                <div class="section__price">
-                    <span>$212.99</span>
-                    <div  class="price__score">
-                        <img src="storage/img/star.svg">
-                        <p>5.0</p>
-                    </div>
-                </div>
-            </section>
-            <section>
-                <div class="section__front_page">
-                    <a href="views/detail.html">
-                        <img src="storage/img/img2.png">
-                    </a>
-                    <img src="storage/img/heart.svg">
-                </div>
-                <h5>Modern light clothes</h5>
-                <small>Dress modern</small>
-                <div class="section__price">
-                    <span>$212.99</span>
-                    <div  class="price__score">
-                        <img src="storage/img/star.svg">
-                        <p>5.0</p>
-                    </div>
-                </div>
-            </section>
-            <section>
-                <div class="section__front_page">
-                    <a href="views/detail.html">
-                        <img src="storage/img/img4.png">
-                    </a>
-                    <img src="storage/img/heart.svg">
-                </div>
-                <h5>Modern light clothes</h5>
-                <small>Dress modern</small>
-                <div class="section__price">
-                    <span>$212.99</span>
-                    <div  class="price__score">
-                        <img src="storage/img/star.svg">
-                        <p>5.0</p>
-                    </div>
-                </div>
-            </section>
+            </section> -->
         </article>
     </main>
     <footer class="footer">

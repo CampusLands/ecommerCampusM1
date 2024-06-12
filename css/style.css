@@ -101,25 +101,32 @@
     list-style: none;
 }
 .nav__ul li a{
-    width: 105px;
+    width: 125px;
     height: 35px;
     font-family: "EncodeSans-Medium";
     /* background: orange; */
     text-decoration: none;
     display: flex;
     align-items: center;
+    
     gap: 5px;
     padding: 5px;
     border-radius: 8px;
     border: 1px solid var(--color-3);
+    
     color: var(--color-1);
     background: var(--color-5);
 }
 
 .nav__ul li a:hover{
     filter: invert(1);
+    
 }
-
+.nav__ul li a span{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
 
 
 
