@@ -167,7 +167,7 @@
 .section__front_page a img:first-child{
     width: var(--layout-imagen-width);
     height: var(--layout-imagen-height);
-    object-fit: cover;
+    object-fit: scale-down;
 }
 .section__front_page > img:last-child{
     top: 10px;
