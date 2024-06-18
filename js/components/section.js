@@ -16,3 +16,28 @@ export const titleProductDetail = async({ data:dataUpdate } = res)=>{
             </div>
         </article>`;
 }
+
+export const productDetail = async(res)=>{
+    let {data} = res;
+    let {
+        category_path,
+        about_product,
+        product_details,
+        product_information,
+        product_photos,
+        product_variations,
+        rating_distribution,
+        review_aspects,
+        ...dataUpdate
+    } = data;
+    // console.log(dataUpdate);
+    let string1 = dataUpdate.product_description.slice(0, 165);
+    let string2 = dataUpdate.product_description.slice(166);
+  
+
+    return /*html*/`
+    <details>
+        <summary>${(dataUpdate.product_description.length >= 165) ? string1+"..." : string1}</summary>
+        <p>${string2}</p>
+    </details>`;
+}
