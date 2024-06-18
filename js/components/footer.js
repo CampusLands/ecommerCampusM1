@@ -21,7 +21,7 @@ export const buttonCartDetails = async(res)=>{
     <li>
         <a href="checkout.html">
             <img src="../storage/img/shopping-cart.svg">
-            <span>Add to Cart | ${(product_original_price) ? product_price+" <del><sub>"+product_original_price+"</sub></del>" : product_price} </span>
+            <span>Add to Cart | ${(product_original_price) ? "<span id='price_discount'>"+product_price+"</span><del><sub id='price_original'>"+product_original_price+"</sub></del>" : "<span id='price_discount'>"+product_price+"</span> <del><sub id='price_original'></sub></del>"} </span>
         </a>
     </li>`;
 }
